@@ -22,3 +22,33 @@ Click the "Fill the blanks" button and get the result.
 You can also see the values of the following metrics: PNSR, MSE, SSIM.
 
 ![Снимок экрана 2024-04-17 в 15.52.39](/assets/Снимок%20экрана%202024-04-17%20в%2015.52.39.png)
+
+## Run app
+
+Clone the repository
+
+```console
+git clone https://github.com/Mariama4/tea_image_inpainting.git
+```
+
+Install dependencies
+
+```console
+pip install -r requirements.txt
+```
+
+Start the application
+
+```console
+streamlit run main_page.py
+```
+
+## Links
+
+1. https://streamlit.io/
+
+1. https://www.olivier-augereau.com/docs/2004JGraphToolsTelea.pdf
+
+1. https://www.researchgate.net/publication/3940597_Navier-Stokes_fluid_dynamics_and_image_and_video_inpainting
+
+1. https://github.com/nipponjo/deepfillv2-pytorch
